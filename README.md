@@ -1,10 +1,10 @@
-# Copy Full Stack Trace
+# Copy Full Stack Trace - Godot Editor Plugin
 
-A lightweight Godot 4 editor plugin that adds a **Copy Full** button to the
-Debugger's **Stack Trace** panel. It collects the active error, selected thread,
-and every stack frame into one clipboard-ready block of text.
+A lightweight editor plugin for Godot 4.2 or later that adds a **Copy Full**
+button to the Debugger's **Stack Trace** panel. It collects the active error,
+selected thread, and every stack frame into one clipboard-ready block of text.
 
-![Godot 4.x](https://img.shields.io/badge/Godot-4.x-478CBF?logo=godotengine&logoColor=white)
+![Godot 4.2+](https://img.shields.io/badge/Godot-4.2%2B-478CBF?logo=godotengine&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Features
@@ -17,16 +17,26 @@ and every stack frame into one clipboard-ready block of text.
 
 ## Installation
 
-1. Create `res://addons/copy_full_stack_trace/` in your Godot project.
-2. Copy `plugin.cfg` and `plugin.gd` from this repository's `addons/` folder
-   into that directory.
-3. Open **Project > Project Settings > Plugins**.
-4. Enable **Copy Full Stack Trace**.
+### From the Godot Asset Library
+
+1. Open the **AssetLib** tab in the Godot editor.
+2. Search for **Copy Full Stack Trace**.
+3. Click **Download**, then **Install**.
+4. Open **Project → Project Settings → Plugins** and enable
+   **Copy Full Stack Trace**.
+
+### From GitHub
+
+1. Copy this repository's `addons/copy-full-stack-trace/` folder into your
+   project's `addons/` directory.
+2. Open **Project → Project Settings → Plugins**.
+3. Enable **Copy Full Stack Trace**.
 
 Your project should contain:
 
 ```text
-res://addons/copy_full_stack_trace/
+res://addons/copy-full-stack-trace/
+├── LICENSE
 ├── plugin.cfg
 └── plugin.gd
 ```
@@ -34,7 +44,7 @@ res://addons/copy_full_stack_trace/
 ## Usage
 
 1. Run or debug your project until execution stops on an error or breakpoint.
-2. Open the **Debugger > Stack Trace** panel.
+2. Open the **Debugger → Stack Trace** panel.
 3. Select the thread whose trace you want to copy.
 4. Click **Copy Full**.
 5. Paste the result into an issue, chat, document, or debugging tool.
@@ -52,7 +62,7 @@ Stack Trace:
 
 ## Compatibility
 
-- Godot 4.x
+- Godot 4.2 or later
 - Runs only in the editor; it is not included in exported games
 
 The plugin integrates with Godot's built-in Stack Trace interface. A future
