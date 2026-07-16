@@ -1,6 +1,6 @@
 # Copy Full Stack Trace - Godot Editor Plugin
 
-A lightweight editor plugin for Godot 4.2 or later that adds a **Copy Full**
+A lightweight editor plugin for Godot that adds a **Copy Full**
 button to the Debugger's **Stack Trace** panel. It collects the active error,
 selected thread, and every stack frame into one clipboard-ready block of text.
 
