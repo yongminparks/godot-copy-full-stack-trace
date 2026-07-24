@@ -17,9 +17,11 @@ selected thread, and every stack frame into one clipboard-ready block of text.
 
 ## Installation
 
-### From the Godot Asset Library
+### From the Godot Asset Library / Godot Asset Store
 
-1. Open the **AssetLib** tab in the Godot editor.
+[Copy Full Stack Trace - Godot Asset Store](https://store.godotengine.org/asset/yongminpark/copy-full-stack-trace/)
+
+1. Open the **AssetLib / Godot Asset Store** tab in the Godot editor.
 2. Search for **Copy Full Stack Trace**.
 3. Click **Download**, then **Install**.
 4. Open **Project → Project Settings → Plugins** and enable
